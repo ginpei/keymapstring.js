@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>keymapstring.js</title>
+		<style>
+			#command {
+				background-color: #eee;
+				color: #333;
+				font-size: 40px;
+				padding: 1em;
+				text-shadow: 1px 1px 0 #fff;
+				margin: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>keymapstring.js</h1>
+		<div id="command">Command: <code class="js-command"></code></div>
+		<script src="keymapstring.js"></script>
+		<script>
+			var elCommand = document.querySelector('.js-command');
+			function onkey(event) {
+				var command = keymapstring(event);
+				elCommand.innerHTML = command;
+			}
+			document.addEventListener('keydown', onkey);
+			document.addEventListener('keypress', onkey);
+		</script>
+	</body>
+</html>
