@@ -22,7 +22,15 @@
 			var elCommand = document.querySelector('.js-command');
 			function onkey(event) {
 				var command = keymapstring(event);
-				elCommand.innerHTML = command;
+				if (command) {
+					if (command !== 'f12') {
+						event.preventDefault();
+					}
+					elCommand.innerHTML = command;
+				}
+				if (command === 'C-r') {
+					location.reload();
+				}
 			}
 			document.addEventListener('keydown', onkey);
 			document.addEventListener('keypress', onkey);
