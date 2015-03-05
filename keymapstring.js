@@ -41,6 +41,7 @@ keymapstring.getCommand = function(event) {
 	return command || null;
 };
 keymapstring.charcodeMap = {
+	10: 'return',
 	13: 'return',
 	32: 'space',
 };
