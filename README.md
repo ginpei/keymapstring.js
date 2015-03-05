@@ -85,6 +85,10 @@ Number ::= [0-9]
 Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 ```
 
+## License
+
+* MIT License
+
 ## Contact
 
 * By [Ginpei](https://github.com/ginpei/ginpei)
