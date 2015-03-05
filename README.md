@@ -73,7 +73,7 @@ Write letters or key names with lower case.
 ### BNF
 
 ```bnf
-KeymapString ::= Ctrl? Alt? Meta? (Shif? Key | Number | Symbol)
+KeymapString ::= Ctrl? Alt? Meta? (Shift? Key | Number | Symbol)
 Ctrl ::= 'C-'
 Alt ::= 'A-'
 Meta ::= 'M-'
