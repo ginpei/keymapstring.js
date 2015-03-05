@@ -84,3 +84,8 @@ Special ::= 'backspace' | 'tab' | 'return' | 'space' | 'escape' | 'home' | 'end'
 Number ::= [0-9]
 Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 ```
+
+## Contact
+
+* By [Ginpei](https://github.com/ginpei/ginpei)
+* Twitter: [@ginpei\_en](https://twitter.com/ginpei_en)(en) / [@ginpei\_jp](https://twitter.com/ginpei_jp)(ja)
