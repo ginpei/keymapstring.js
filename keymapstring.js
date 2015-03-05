@@ -14,10 +14,10 @@ keymapstring.getCommand = function(event) {
 		command = this.charcodeMap[code];
 		if (!command) {
 			command = String.fromCharCode(code);
-			if (65 <= code && code <= 90) {  // A-Z
+			if (this.isUpperAlphabet(code)) {
 				command = command.toLowerCase();
 			}
-			else if (!(48 <= code && code <= 57) && !(97 <= code && code <= 122)) {  // 0-9 || a-z
+			else if (!this.isNumber(code) && !this.isLowerAlphabet(code)) {
 				asSymbol = true;
 			}
 		}
@@ -39,6 +39,15 @@ keymapstring.getCommand = function(event) {
 	}
 
 	return command || null;
+};
+keymapstring.isLowerAlphabet = function(code) {
+	return (97 <= code && code <= 122);
+};
+keymapstring.isUpperAlphabet = function(code) {
+	return (65 <= code && code <= 90);
+};
+keymapstring.isNumber = function(code) {
+	return (48 <= code && code <= 57);
 };
 keymapstring.charcodeMap = {
 	10: 'return',
