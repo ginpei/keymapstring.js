@@ -52,12 +52,12 @@ Return map strings like `"C-c"`, `"C-S-c"`, `"M-f"` or `"backspace"`.
 
 ### Modifirers
 
-Explain|Windows|Machintosh
+Explain|Windows|Machintosh?
 -------|-------|----------
-C-     |Ctrl   |controll
-A-     |Alt    |option
-M-     |       |command
-S-     |Shift  |shift
+C-     |Ctrl   |controll?
+A-     |Alt    |option?
+M-     |       |command?
+S-     |Shift  |shift?
 
 The order is: C, A, M, S.
 
