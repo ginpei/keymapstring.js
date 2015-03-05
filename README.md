@@ -34,6 +34,7 @@ document.addEventListener('keydown', function(event) {
 ### `keymapstring(event)`
 
 * `event`: KeyboardEvent object.
+* returns: Key map string.
 
 Return map strings like `"C-c"`, `"C-S-c"`, `"M-f"` or `"backspace"`.
 
