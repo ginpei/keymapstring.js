@@ -5,7 +5,7 @@ A JS lib to return key map string like "C-s" for KeyboardEvent.
 * It detects key inputs via KeyboardEvent object.
 * It returns a string.
 * It doesn't handle KeyboardEvent object.
-* It doesn't listen key inputs.
+* It doesn't observe key inputs.
 * It doesn't run any callbacks.
 
 ## Example
