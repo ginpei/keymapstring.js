@@ -112,7 +112,7 @@ Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 
 * (Empty) = OK.
 * `key`, `key` = Some keys does not work well.
-* ✘ = No keys work well.
+* ✘ = No/most keys work well.
 
 ## Windows
 
@@ -133,16 +133,16 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
-   |   |   |`"0"`       |          |             |  
-✔ |   |   |`"C-0"`     |          |             |  
-   |✔ |   |`"A-0"`     |          |             |  
-✔ |✔ |   |`"C-A-0"`   |          |             |  
+   |   |   |`"0"`       |          |             |
+✔ |   |   |`"C-0"`     |          |             |
+   |✔ |   |`"A-0"`     |          |             |
+✔ |✔ |   |`"C-A-0"`   |          |             |
 
 ### Symbol
 
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
-   |   |   |`"@"`       |          |             |  
+   |   |   |`"@"`       |          |             |
 ✔ |   |   |`"C-@"`     |          |✘           |✘
    |✔ |   |`"A-@"`     |          |✘           |✘
 ✔ |✔ |   |`"C-A-@"`   |          |✘           |✘
@@ -154,14 +154,14 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 
 C- |A- |S- |Example     |Firefox 36              |Chrome 41               |IE 11
 ---|---|---|------------|------------------------|------------------------|-----
-   |   |   |`"up"`      |                        |                        |                        
-   |   |✔ |`"S-up"`    |                        |                        |                        
-✔ |   |   |`"C-up"`    |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`         
-✔ |   |✔ |`"C-S-up"`  |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`         
+   |   |   |`"up"`      |                        |                        |
+   |   |✔ |`"S-up"`    |                        |                        |
+✔ |   |   |`"C-up"`    |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`
+✔ |   |✔ |`"C-S-up"`  |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`
    |✔ |   |`"A-up"`    |`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`
-   |✔ |✔ |`"A-S-up"`  |`Tab`                   |`Tab`                   |`Tab`                   
-✔ |✔ |   |`"C-A-up"`  |`Tab`, `Delete`         |`Tab`, `Delete`         |`Tab`, `Delete`         
-✔ |✔ |✔ |`"C-A-S-up"`|`Tab`                   |`Tab`                   |`Tab`                   
+   |✔ |✔ |`"A-S-up"`  |`Tab`                   |`Tab`                   |`Tab`
+✔ |✔ |   |`"C-A-up"`  |`Tab`, `Delete`         |`Tab`, `Delete`         |`Tab`, `Delete`
+✔ |✔ |✔ |`"C-A-S-up"`|`Tab`                   |`Tab`                   |`Tab`
 
 ## Mac
 
