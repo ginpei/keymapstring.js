@@ -116,16 +116,49 @@ Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 
 ## Windows
 
-Ctrl  |Alt  |Shift  |Key   |Example    |Firefox 36|Chrome 41    |IE 11
-------|-----|-------|------|-----------|----------|-------------|-----
-      |     |       |Letter|`"x"`      |          |             | 
-      |     |Shift +|Letter|`"S-x"`    |          |             | 
-Ctrl +|     |       |Letter|`"C-x"`    |          |`n`, `t`, `w`|`o`, `p`
-Ctrl +|     |Shift +|Letter|`"C-S-x"`  |          |`n`, `t`, `w`| 
-      |Alt +|       |Letter|`"A-x"`    |          |             |✘
-      |Alt +|Shift +|Letter|`"A-S-x"`  |          |             |`d`
-Ctrl +|Alt +|       |Letter|`"C-A-x"`  |          |             | 
-Ctrl +|Alt +|Shift +|Letter|`"C-A-S-x"`|          |             | 
+Ctrl  |Alt  |Shift  |Key    |Example     |Firefox 36|Chrome 41    |IE 11
+------|-----|-------|-------|------------|----------|-------------|-----
+      |     |       |Letter |`"x"`       |          |             |
+      |     |Shift +|Letter |`"S-x"`     |          |             |
+Ctrl +|     |       |Letter |`"C-x"`     |          |`n`, `t`, `w`|`o`, `p`
+Ctrl +|     |Shift +|Letter |`"C-S-x"`   |          |`n`, `t`, `w`|
+      |Alt +|       |Letter |`"A-x"`     |          |             |✘
+      |Alt +|Shift +|Letter |`"A-S-x"`   |          |             |`d`
+Ctrl +|Alt +|       |Letter |`"C-A-x"`   |          |             |
+Ctrl +|Alt +|Shift +|Letter |`"C-A-S-x"` |          |             |
+
+Ctrl  |Alt  |Shift  |Key    |Example     |Firefox 36|Chrome 41    |IE 11
+------|-----|-------|-------|------------|----------|-------------|-----
+      |     |       |Number |`"0"`       |N/A       |N/A          |N/A
+      |     |Shift +|Number |`"S-0"`     |N/A       |N/A          |N/A
+Ctrl +|     |       |Number |`"C-0"`     |N/A       |N/A          |N/A
+Ctrl +|     |Shift +|Number |`"C-S-0"`   |N/A       |N/A          |N/A
+      |Alt +|       |Number |`"A-0"`     |N/A       |N/A          |N/A
+      |Alt +|Shift +|Number |`"A-S-0"`   |N/A       |N/A          |N/A
+Ctrl +|Alt +|       |Number |`"C-A-0"`   |N/A       |N/A          |N/A
+Ctrl +|Alt +|Shift +|Number |`"C-A-S-0"` |N/A       |N/A          |N/A
+
+Ctrl  |Alt  |Shift  |Key    |Example     |Firefox 36|Chrome 41    |IE 11
+------|-----|-------|-------|------------|----------|-------------|-----
+      |     |       |Symbol |`"@"`       |N/A       |N/A          |N/A
+      |     |Shift +|Symbol |`"S-@"`     |N/A       |N/A          |N/A
+Ctrl +|     |       |Symbol |`"C-@"`     |N/A       |N/A          |N/A
+Ctrl +|     |Shift +|Symbol |`"C-S-@"`   |N/A       |N/A          |N/A
+      |Alt +|       |Symbol |`"A-@"`     |N/A       |N/A          |N/A
+      |Alt +|Shift +|Symbol |`"A-S-@"`   |N/A       |N/A          |N/A
+Ctrl +|Alt +|       |Symbol |`"C-A-@"`   |N/A       |N/A          |N/A
+Ctrl +|Alt +|Shift +|Symbol |`"C-A-S-@"` |N/A       |N/A          |N/A
+
+Ctrl  |Alt  |Shift  |Key    |Example     |Firefox 36|Chrome 41    |IE 11
+------|-----|-------|-------|------------|----------|-------------|-----
+      |     |       |Special|`"up"`      |N/A       |N/A          |N/A
+      |     |Shift +|Special|`"S-up"`    |N/A       |N/A          |N/A
+Ctrl +|     |       |Special|`"C-up"`    |N/A       |N/A          |N/A
+Ctrl +|     |Shift +|Special|`"C-S-up"`  |N/A       |N/A          |N/A
+      |Alt +|       |Special|`"A-up"`    |N/A       |N/A          |N/A
+      |Alt +|Shift +|Special|`"A-S-up"`  |N/A       |N/A          |N/A
+Ctrl +|Alt +|       |Special|`"C-A-up"`  |N/A       |N/A          |N/A
+Ctrl +|Alt +|Shift +|Special|`"C-A-S-up"`|N/A       |N/A          |N/A
 
 ## Mac
 
