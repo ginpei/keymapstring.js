@@ -134,26 +134,18 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
    |   |   |`"0"`       |N/A       |N/A          |N/A
-   |   |✔ |`"S-0"`     |N/A       |N/A          |N/A
 ✔ |   |   |`"C-0"`     |N/A       |N/A          |N/A
-✔ |   |✔ |`"C-S-0"`   |N/A       |N/A          |N/A
    |✔ |   |`"A-0"`     |N/A       |N/A          |N/A
-   |✔ |✔ |`"A-S-0"`   |N/A       |N/A          |N/A
 ✔ |✔ |   |`"C-A-0"`   |N/A       |N/A          |N/A
-✔ |✔ |✔ |`"C-A-S-0"` |N/A       |N/A          |N/A
 
 ### Symbol
 
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
    |   |   |`"@"`       |N/A       |N/A          |N/A
-   |   |✔ |`"S-@"`     |N/A       |N/A          |N/A
 ✔ |   |   |`"C-@"`     |N/A       |N/A          |N/A
-✔ |   |✔ |`"C-S-@"`   |N/A       |N/A          |N/A
    |✔ |   |`"A-@"`     |N/A       |N/A          |N/A
-   |✔ |✔ |`"A-S-@"`   |N/A       |N/A          |N/A
 ✔ |✔ |   |`"C-A-@"`   |N/A       |N/A          |N/A
-✔ |✔ |✔ |`"C-A-S-@"` |N/A       |N/A          |N/A
 
 ### Special
 
