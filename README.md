@@ -143,9 +143,12 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
    |   |   |`"@"`       |✔        |✔           |✔
-✔ |   |   |`"C-@"`     |✔        |N/A          |N/A
-   |✔ |   |`"A-@"`     |✔        |N/A          |N/A
-✔ |✔ |   |`"C-A-@"`   |✔        |N/A          |N/A
+✔ |   |   |`"C-@"`     |✔        |✘           |✘
+   |✔ |   |`"A-@"`     |✔        |✘           |✘
+✔ |✔ |   |`"C-A-@"`   |✔        |✘           |✘
+
+* The key "Ctrl+Shift+1", meaning `"C-!"` on US layout, fires an event with the code `49` meaning "1".
+* The key "Ctrl+Shift+2", meaning `"C-@"` on US layout, fires an event with the code `0` meaning NUL in [ASCII control code](http://en.wikipedia.org/wiki/ASCII#ASCII_control_code_chart).
 
 ### Special
 
