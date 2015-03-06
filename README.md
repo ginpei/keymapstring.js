@@ -110,23 +110,22 @@ Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 
 ## Supports
 
-* ✔ = OK.
+* (Empty) = OK.
 * `key`, `key` = Some keys does not work well.
 * ✘ = No keys work well.
-* (Empty) = Not implemented
 
 ## Windows
 
 Ctrl  |Alt  |Shift  |Key   |Example    |Firefox 36|Chrome 41    |IE 11
 ------|-----|-------|------|-----------|----------|-------------|-----
-      |     |       |Letter|`"x"`      |✔        |✔           |✔
-      |     |Shift +|Letter|`"S-x"`    |✔        |✔           |✔
-Ctrl +|     |       |Letter|`"C-x"`    |✔        |`n`, `t`, `w`|`o`, `p`
-Ctrl +|     |Shift +|Letter|`"C-S-x"`  |✔        |`n`, `t`, `w`|✔
-      |Alt +|       |Letter|`"A-x"`    |✔        |✔           |✘
-      |Alt +|Shift +|Letter|`"A-S-x"`  |✔        |✔           |`d`
-Ctrl +|Alt +|       |Letter|`"C-A-x"`  |✔        |✔           |✔
-Ctrl +|Alt +|Shift +|Letter|`"C-A-S-x"`|✔        |✔           |✔
+      |     |       |Letter|`"x"`      |          |             | 
+      |     |Shift +|Letter|`"S-x"`    |          |             | 
+Ctrl +|     |       |Letter|`"C-x"`    |          |`n`, `t`, `w`|`o`, `p`
+Ctrl +|     |Shift +|Letter|`"C-S-x"`  |          |`n`, `t`, `w`| 
+      |Alt +|       |Letter|`"A-x"`    |          |             |✘
+      |Alt +|Shift +|Letter|`"A-S-x"`  |          |             |`d`
+Ctrl +|Alt +|       |Letter|`"C-A-x"`  |          |             | 
+Ctrl +|Alt +|Shift +|Letter|`"C-A-S-x"`|          |             | 
 
 ## Mac
 
