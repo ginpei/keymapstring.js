@@ -133,19 +133,19 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
-   |   |   |`"0"`       |✔        |✔           |✔
-✔ |   |   |`"C-0"`     |✔        |✔           |✔
-   |✔ |   |`"A-0"`     |✔        |✔           |✔
-✔ |✔ |   |`"C-A-0"`   |✔        |✔           |✔
+   |   |   |`"0"`       |          |             |  
+✔ |   |   |`"C-0"`     |          |             |  
+   |✔ |   |`"A-0"`     |          |             |  
+✔ |✔ |   |`"C-A-0"`   |          |             |  
 
 ### Symbol
 
 C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 ---|---|---|------------|----------|-------------|-----
-   |   |   |`"@"`       |✔        |✔           |✔
-✔ |   |   |`"C-@"`     |✔        |✘           |✘
-   |✔ |   |`"A-@"`     |✔        |✘           |✘
-✔ |✔ |   |`"C-A-@"`   |✔        |✘           |✘
+   |   |   |`"@"`       |          |             |  
+✔ |   |   |`"C-@"`     |          |✘           |✘
+   |✔ |   |`"A-@"`     |          |✘           |✘
+✔ |✔ |   |`"C-A-@"`   |          |✘           |✘
 
 * The key "Ctrl+Shift+1", meaning `"C-!"` on US layout, fires an event with the code `49` meaning "1".
 * The key "Ctrl+Shift+2", meaning `"C-@"` on US layout, fires an event with the code `0` meaning NUL in [ASCII control code](http://en.wikipedia.org/wiki/ASCII#ASCII_control_code_chart).
@@ -154,8 +154,8 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 
 C- |A- |S- |Example     |Firefox 36              |Chrome 41               |IE 11
 ---|---|---|------------|------------------------|------------------------|-----
-   |   |   |`"up"`      |✔                      |✔                      |✔                      
-   |   |✔ |`"S-up"`    |✔                      |✔                      |✔                      
+   |   |   |`"up"`      |                        |                        |                        
+   |   |✔ |`"S-up"`    |                        |                        |                        
 ✔ |   |   |`"C-up"`    |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`         
 ✔ |   |✔ |`"C-S-up"`  |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`         
    |✔ |   |`"A-up"`    |`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`
