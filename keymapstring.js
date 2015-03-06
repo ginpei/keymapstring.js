@@ -8,7 +8,7 @@ keymapstring.getCommand = function(event) {
 	var code = event.which;
 
 	if (type === 'keydown') {
-		if (this.isLowerAlphabet(code) || this.isUpperAlphabet(code)) {
+		if (this.isLowerAlphabet(code) || this.isUpperAlphabet(code) || (this.isNumber(code) && !event.shiftKey)) {
 			command = String.fromCharCode(code).toLowerCase();
 		}
 		else {
