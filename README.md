@@ -110,34 +110,23 @@ Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 
 ## Supports
 
-* ✔ = OK
-* △ = Partial
-* ✘ = Not supported
+* ✔ = OK.
+* `key`, `key` = Some keys does not work well.
+* ✘ = No keys work well.
 * (Empty) = Not implemented
 
 ## Windows
 
-Ctrl  |Alt  |Shift  |Key   |Example    |Firefox 36|Chrome 41|IE 11
-------|-----|-------|------|-----------|----------|---------|-----
-      |     |       |Letter|`"x"`      |✔        |✔       |✔
-Ctrl +|     |       |Letter|`"C-x"`    |✔        |△1      |△4, 2
-      |Alt +|       |Letter|`"A-x"`    |✔        |✔       |✔
-      |     |Shift +|Letter|`"S-x"`    |✔        |✔       |✔
-Ctrl +|Alt +|       |Letter|`"C-A-x"`  |✔        |✔       |△3
-Ctrl +|     |Shift +|Letter|`"C-S-x"`  |✔        |△1      |✔
-      |Alt +|Shift +|Letter|`"A-S-x"`  |✔        |✔       |△4
-Ctrl +|Alt +|Shift +|Letter|`"C-A-S-x"`|✔        |✔       |✔
-
-* These commands can't be captured.
-    * △1: `n`, `t`, `w`
-    * △4: `d`
-* These commands can't be prevented by `event.preventDefault()`.
-    * △2:
-        * `"C-o"`
-        * `"C-p"`
-        * All menus: `a` , `c` , `e` , `f` , `h` , `s` , `t` , `v` , `x` , `z`
-    * △3:
-        * All commands (Menu bar will be shown)
+Ctrl  |Alt  |Shift  |Key   |Example    |Firefox 36|Chrome 41    |IE 11
+------|-----|-------|------|-----------|----------|-------------|-----
+      |     |       |Letter|`"x"`      |✔        |✔           |✔
+      |     |Shift +|Letter|`"S-x"`    |✔        |✔           |✔
+Ctrl +|     |       |Letter|`"C-x"`    |✔        |`n`, `t`, `w`|`o`, `p`
+Ctrl +|     |Shift +|Letter|`"C-S-x"`  |✔        |`n`, `t`, `w`|✔
+      |Alt +|       |Letter|`"A-x"`    |✔        |✔           |✘
+      |Alt +|Shift +|Letter|`"A-S-x"`  |✔        |✔           |`d`
+Ctrl +|Alt +|       |Letter|`"C-A-x"`  |✔        |✔           |✔
+Ctrl +|Alt +|Shift +|Letter|`"C-A-S-x"`|✔        |✔           |✔
 
 ## Mac
 
