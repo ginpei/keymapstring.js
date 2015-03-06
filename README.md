@@ -8,6 +8,12 @@ A JS lib to return key map string like "C-s" for KeyboardEvent.
 * It doesn't observe key inputs.
 * It doesn't run any callbacks.
 
+## Usage
+
+```js
+var command = keymapstring(event);
+```
+
 ## Example
 
 ```js
