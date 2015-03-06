@@ -116,49 +116,57 @@ Symbol ::= [!"#$%&'()*+,./:;<=>?@[\^_`{|}~] | '-' | ']'
 
 ## Windows
 
-C- |A- |S- |Key    |Example     |Firefox 36|Chrome 41    |IE 11
----|---|---|-------|------------|----------|-------------|-----
-   |   |   |Letter |`"x"`       |          |             |
-   |   |✔ |Letter |`"S-x"`     |          |             |
-✔ |   |   |Letter |`"C-x"`     |          |`n`, `t`, `w`|`o`, `p`
-✔ |   |✔ |Letter |`"C-S-x"`   |          |`n`, `t`, `w`|
-   |✔ |   |Letter |`"A-x"`     |          |             |✘
-   |✔ |✔ |Letter |`"A-S-x"`   |          |             |`d`
-✔ |✔ |   |Letter |`"C-A-x"`   |          |             |
-✔ |✔ |✔ |Letter |`"C-A-S-x"` |          |             |
+### Letter
 
-C- |A- |S- |Key    |Example     |Firefox 36|Chrome 41    |IE 11
----|---|---|-------|------------|----------|-------------|-----
-   |   |   |Number |`"0"`       |N/A       |N/A          |N/A
-   |   |✔ |Number |`"S-0"`     |N/A       |N/A          |N/A
-✔ |   |   |Number |`"C-0"`     |N/A       |N/A          |N/A
-✔ |   |✔ |Number |`"C-S-0"`   |N/A       |N/A          |N/A
-   |✔ |   |Number |`"A-0"`     |N/A       |N/A          |N/A
-   |✔ |✔ |Number |`"A-S-0"`   |N/A       |N/A          |N/A
-✔ |✔ |   |Number |`"C-A-0"`   |N/A       |N/A          |N/A
-✔ |✔ |✔ |Number |`"C-A-S-0"` |N/A       |N/A          |N/A
+C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
+---|---|---|------------|----------|-------------|-----
+   |   |   |`"x"`       |          |             |
+   |   |✔ |`"S-x"`     |          |             |
+✔ |   |   |`"C-x"`     |          |`n`, `t`, `w`|`o`, `p`
+✔ |   |✔ |`"C-S-x"`   |          |`n`, `t`, `w`|
+   |✔ |   |`"A-x"`     |          |             |✘
+   |✔ |✔ |`"A-S-x"`   |          |             |`d`
+✔ |✔ |   |`"C-A-x"`   |          |             |
+✔ |✔ |✔ |`"C-A-S-x"` |          |             |
 
-C- |A- |S- |Key    |Example     |Firefox 36|Chrome 41    |IE 11
----|---|---|-------|------------|----------|-------------|-----
-   |   |   |Symbol |`"@"`       |N/A       |N/A          |N/A
-   |   |✔ |Symbol |`"S-@"`     |N/A       |N/A          |N/A
-✔ |   |   |Symbol |`"C-@"`     |N/A       |N/A          |N/A
-✔ |   |✔ |Symbol |`"C-S-@"`   |N/A       |N/A          |N/A
-   |✔ |   |Symbol |`"A-@"`     |N/A       |N/A          |N/A
-   |✔ |✔ |Symbol |`"A-S-@"`   |N/A       |N/A          |N/A
-✔ |✔ |   |Symbol |`"C-A-@"`   |N/A       |N/A          |N/A
-✔ |✔ |✔ |Symbol |`"C-A-S-@"` |N/A       |N/A          |N/A
+### Number
 
-C- |A- |S- |Key    |Example     |Firefox 36|Chrome 41    |IE 11
----|---|---|-------|------------|----------|-------------|-----
-   |   |   |Special|`"up"`      |N/A       |N/A          |N/A
-   |   |✔ |Special|`"S-up"`    |N/A       |N/A          |N/A
-✔ |   |   |Special|`"C-up"`    |N/A       |N/A          |N/A
-✔ |   |✔ |Special|`"C-S-up"`  |N/A       |N/A          |N/A
-   |✔ |   |Special|`"A-up"`    |N/A       |N/A          |N/A
-   |✔ |✔ |Special|`"A-S-up"`  |N/A       |N/A          |N/A
-✔ |✔ |   |Special|`"C-A-up"`  |N/A       |N/A          |N/A
-✔ |✔ |✔ |Special|`"C-A-S-up"`|N/A       |N/A          |N/A
+C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
+---|---|---|------------|----------|-------------|-----
+   |   |   |`"0"`       |N/A       |N/A          |N/A
+   |   |✔ |`"S-0"`     |N/A       |N/A          |N/A
+✔ |   |   |`"C-0"`     |N/A       |N/A          |N/A
+✔ |   |✔ |`"C-S-0"`   |N/A       |N/A          |N/A
+   |✔ |   |`"A-0"`     |N/A       |N/A          |N/A
+   |✔ |✔ |`"A-S-0"`   |N/A       |N/A          |N/A
+✔ |✔ |   |`"C-A-0"`   |N/A       |N/A          |N/A
+✔ |✔ |✔ |`"C-A-S-0"` |N/A       |N/A          |N/A
+
+### Symbol
+
+C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
+---|---|---|------------|----------|-------------|-----
+   |   |   |`"@"`       |N/A       |N/A          |N/A
+   |   |✔ |`"S-@"`     |N/A       |N/A          |N/A
+✔ |   |   |`"C-@"`     |N/A       |N/A          |N/A
+✔ |   |✔ |`"C-S-@"`   |N/A       |N/A          |N/A
+   |✔ |   |`"A-@"`     |N/A       |N/A          |N/A
+   |✔ |✔ |`"A-S-@"`   |N/A       |N/A          |N/A
+✔ |✔ |   |`"C-A-@"`   |N/A       |N/A          |N/A
+✔ |✔ |✔ |`"C-A-S-@"` |N/A       |N/A          |N/A
+
+### Special
+
+C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
+---|---|---|------------|----------|-------------|-----
+   |   |   |`"up"`      |N/A       |N/A          |N/A
+   |   |✔ |`"S-up"`    |N/A       |N/A          |N/A
+✔ |   |   |`"C-up"`    |N/A       |N/A          |N/A
+✔ |   |✔ |`"C-S-up"`  |N/A       |N/A          |N/A
+   |✔ |   |`"A-up"`    |N/A       |N/A          |N/A
+   |✔ |✔ |`"A-S-up"`  |N/A       |N/A          |N/A
+✔ |✔ |   |`"C-A-up"`  |N/A       |N/A          |N/A
+✔ |✔ |✔ |`"C-A-S-up"`|N/A       |N/A          |N/A
 
 ## Mac
 
