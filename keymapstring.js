@@ -29,17 +29,17 @@ keymapstring.getCommand = function(event) {
 	}
 
 	if (command) {
-		if (event.ctrlKey) {
-			command = 'C-' + command;
-		}
-		if (event.altKey) {
-			command = 'A-' + command;
+		if (!asSymbol && event.shiftKey) {
+			command = 'S-' + command;
 		}
 		if (event.metaKey) {
 			command = 'M-' + command;
 		}
-		if (!asSymbol && event.shiftKey) {
-			command = 'S-' + command;
+		if (event.altKey) {
+			command = 'A-' + command;
+		}
+		if (event.ctrlKey) {
+			command = 'C-' + command;
 		}
 	}
 
