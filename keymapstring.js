@@ -16,15 +16,12 @@ keymapstring.getCommand = function(event) {
 		}
 	}
 	else if (type === 'keypress' && code) {
-		command = this.charcodeMap[code];
-		if (!command) {
-			command = String.fromCharCode(code);
-			if (this.isUpperAlphabet(code)) {
-				command = command.toLowerCase();
-			}
-			else if (!this.isNumber(code) && !this.isLowerAlphabet(code)) {
-				asSymbol = true;
-			}
+		command = String.fromCharCode(code);
+		if (this.isUpperAlphabet(code)) {
+			command = command.toLowerCase();
+		}
+		else if (!this.isNumber(code) && !this.isLowerAlphabet(code)) {
+			asSymbol = true;
 		}
 	}
 
@@ -56,18 +53,16 @@ keymapstring.isUpperAlphabet = function(code) {
 keymapstring.isNumber = function(code) {
 	return (48 <= code && code <= 57);
 };
-keymapstring.charcodeMap = {
-	10: 'return',
-	13: 'return',
-	32: 'space',
-};
 keymapstring.keycodeMap = {
 	8: 'backspace',
 	9: 'tab',
+	10: 'return',
+	13: 'return',
 	// 16: 'shift',
 	// 17: 'control',
 	// 18: 'alt',
 	27: 'escape',
+	32: 'space',
 	33: 'pageup',
 	34: 'pagedown',
 	35: 'end',

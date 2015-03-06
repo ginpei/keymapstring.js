@@ -149,18 +149,16 @@ C- |A- |S- |Example     |Firefox 36|Chrome 41    |IE 11
 
 ### Special
 
-C- |A- |S- |Example     |Firefox 36              |Chrome 41                         |IE 11
----|---|---|------------|------------------------|----------------------------------|-----
-   |   |   |`"up"`      |✔                      |✔                                |✔                      
-   |   |✔ |`"S-up"`    |✔                      |✔                                |✔                      
-✔ |   |   |`"C-up"`    |`Tab`, `Escape`         |`Tab`, `Escape`                   |`Tab`, `Escape`         
-✔ |   |✔ |`"C-S-up"`  |`Tab`, `Escape`         |`Tab`, `Escape`                   |`Tab`, `Escape`         
-   |✔ |   |`"A-up"`    |`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`, `Return`|`Tab`, `Escape`, `Space`
-   |✔ |✔ |`"A-S-up"`  |`Tab`                   |`Tab`, `Return`                   |`Tab`                   
-✔ |✔ |   |`"C-A-up"`  |`Tab`, `Delete`         |`Tab`, `Delete`, `Return`         |`Tab`, `Delete`         
-✔ |✔ |✔ |`"C-A-S-up"`|`Tab`                   |`Tab`, `Return`                   |`Tab`                   
-
-* See this issue: [Support A-return for Chrome](https://github.com/ginpei/keymapstring.js/issues/2)
+C- |A- |S- |Example     |Firefox 36              |Chrome 41               |IE 11
+---|---|---|------------|------------------------|------------------------|-----
+   |   |   |`"up"`      |✔                      |✔                      |✔                      
+   |   |✔ |`"S-up"`    |✔                      |✔                      |✔                      
+✔ |   |   |`"C-up"`    |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`         
+✔ |   |✔ |`"C-S-up"`  |`Tab`, `Escape`         |`Tab`, `Escape`         |`Tab`, `Escape`         
+   |✔ |   |`"A-up"`    |`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`|`Tab`, `Escape`, `Space`
+   |✔ |✔ |`"A-S-up"`  |`Tab`                   |`Tab`                   |`Tab`                   
+✔ |✔ |   |`"C-A-up"`  |`Tab`, `Delete`         |`Tab`, `Delete`         |`Tab`, `Delete`         
+✔ |✔ |✔ |`"C-A-S-up"`|`Tab`                   |`Tab`                   |`Tab`                   
 
 ## Mac
 
