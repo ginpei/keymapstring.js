@@ -11,22 +11,38 @@ A JS lib to return key map string like "C-s" for KeyboardEvent.
 ## Example
 
 ```js
-var map = {
-    'C-s'   : function(){ controller.save();         },
-    'C-w'   : function(){ controller.closeTab();     },
-    'C-S-w' : function(){ controller.closeAllTabs(); },
-    'M-f'   : function(){ controller.showFileMenu(); },
-    'pageup': function(){ controller.pageUp();       },
-    'del'   : function(){ controller.delete();       }
+var controller = {
+    // prepare command-action mapping
+    commands: {
+        'C-s'   : 'save',
+        'C-w'   : 'closeTab',
+        'C-S-w' : 'closeAllTabs',
+        'M-f'   : 'showFileMenu',
+        'pageup': 'pageUp',
+        'del'   : 'delete'
+    },
+
+    // listen keyboard operations
+    start: function() {
+        var onkey = this.onkey.bind(this);
+        document.addEventListener('keydown', onkey);
+        document.addEventListener('keypress', onkey);
+    },
+
+    // get a command from an event and do its action
+    onkey: function(event) {
+
+        var command = keymapstring(event);  // <--- This is it!
+
+        var action = this.commands[command];
+        if (action) {
+            event.preventDefault();
+            this[action](event);
+        }
+    },
+
+    ...
 };
-document.addEventListener('keydown', function(event) {
-    var command = keymapstring(event);  // <--- This is it!
-    var fn = map[command];
-    if (fn) {
-        event.preventDefault();
-        fn(event);
-    }
-});
 ```
 
 ## Reference
