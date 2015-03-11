@@ -38,8 +38,6 @@ keymapstring.getCommand = function(event) {
 		}
 	}
 
-	console.log(type, code, command, event);
-
 	return command || null;
 };
 keymapstring.isLowerAlphabet = function(code) {
