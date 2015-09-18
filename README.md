@@ -165,7 +165,7 @@ C- |A- |S- |Example     |Firefox 36              |Chrome 41               |IE 11
 
 ## Mac
 
-(Comming soon...)
+(I'm waiting for [your help](https://github.com/ginpei/keymapstring.js/pulls)!)
 
 ## License
 
