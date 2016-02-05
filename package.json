@@ -1,0 +1,27 @@
+{
+  "name": "keymapstring.js",
+  "version": "1.0.0",
+  "description": "A JS lib to return key map string like \"C-s\" for KeyboardEvent.",
+  "main": "keymapstring.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginpei/keymapstring.js.git"
+  },
+  "keywords": [
+    "event",
+    "dom",
+    "keydown",
+    "keypress",
+    "keyup",
+    "keyCode"
+  ],
+  "author": "Ginpei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ginpei/keymapstring.js/issues"
+  },
+  "homepage": "https://github.com/ginpei/keymapstring.js#readme"
+}
