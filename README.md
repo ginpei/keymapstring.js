@@ -1,5 +1,7 @@
 # keymapstring.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ginpei/keymapstring.js.svg)](https://greenkeeper.io/)
+
 A JS lib to return key map string like "C-s" for KeyboardEvent.
 
 * It detects key inputs via KeyboardEvent object.
